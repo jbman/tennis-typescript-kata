@@ -7,6 +7,6 @@ class TennisGameImpl implements TennisGame {
   }
 
   getScore(): string {
-    return "I don't now the score";
+    return "I don't know?";
   }
 }

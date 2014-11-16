@@ -58,7 +58,8 @@ module.exports = function (grunt) {
             }
         }
     });
-    
-    grunt.registerTask('default', ['connect', 'watch']);
+
+    grunt.registerTask('init', ['tsd']);    
+    grunt.registerTask('default', ['watch']);
     grunt.registerTask('test', ['jasmine']);
 }

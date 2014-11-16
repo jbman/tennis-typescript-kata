@@ -1,4 +1,4 @@
-# Tennis Kata: BDD with Typescript and Jasmine
+# Tennis Kata: Typescript, Jasmine and BDD
 
 This Kata provides a starting point for practicing *Behavior Driven Development* (BDD) with *Typescript* as programming language and
 *Jasmine* to specify your tests.
@@ -6,12 +6,39 @@ This Kata provides a starting point for practicing *Behavior Driven Development*
 If you don't know the term BDD yet, read [this blog post](http://dannorth.net/introducing-bdd/) from the inventor of the term or the [behaviour-driven.org wiki](http://behaviour-driven.org). In summary BDD it is about writing tests first and additionally documenting the behavioural intent of the system with these tests.
 
 ## Preparation
-To get started, you need to install [Node.js](http://nodejs.org/).
 
-Then open your favorite text editor with the following files:
-- TennisGame.ts - The Interface whioch is given and should not be modified
-- TennisGameImpl.ts - Your implementation of TennisGame goes here
-- TennisGameSpec.ts - Your test code goes here
+Befor you can start you need to install [Node.js](http://nodejs.org/). This is the javascript runtime environment, 
+which is used build and run this project.
+After exectuing the following steps, you will have development environment for this Kata.
+
+##  Build the project
+1. Fork or clone this repository
+
+2. Open a console at the root of your local repository (where this README is placed)
+
+3. Run ```npm install```.
+    This downloads all node modules specified in package.json into folder node_modules.
+    The modules are needed for building this project and executing the tests.
+
+4. Run ```grunt init```
+    This downloads Typescript declaration files (d.ts) specified in tsd.json.
+    [Grunt](http://gruntjs.com/) is a javscript task runner. 
+    The tasks are defined in GruntFile.js.
+
+5. Run ```grunt``` 
+    This watches for changes in the source file. On a change the file is compiled and the tests are executed.
+
+6. Open your favorite text editor with the following files:
+
+  - TennisGame.ts - The Interface whioch is given and should not be modified
+  - TennisGameImpl.ts - Your implementation of TennisGame goes here
+  - TennisGameSpec.ts - Your test code goes here
+  
+7. Edit "TennisGameImpl.ts" by modifying the return value. 
+   Look at your console: The file is compiled and the tests are run.
+   You should see that one test fails.
+
+Congratulations you can now start the Typescript Tennis Kata. As a first step, try to fix the failing test by providing the expected return value. Then go on and read the complete task description below.
 
 ## The task
 Tennis has a rather quirky scoring system, and to newcomers it can be a little difficult to keep track of. The tennis society has contracted you to build a scoreboard to display the current score during tennis games. 
