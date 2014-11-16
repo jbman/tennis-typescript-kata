@@ -1,0 +1,23 @@
+{
+  "name": "typescript-katas",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "typescript": "~1.1.0-1",
+    "grunt-ts": "~1.12.1",
+    "grunt-tsd": "~0.1.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-connect": "~0.8.0",
+    "grunt-open": "~0.2.3",
+    "grunt-jasmine-runner": "~0.6.0",
+    "phantomjs": "~1.9.10",
+    "grunt-contrib-jasmine": "~0.8.0"
+  }
+}
