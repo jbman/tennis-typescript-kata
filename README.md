@@ -3,10 +3,10 @@
 This Kata provides a starting point for practicing *Behavior Driven Development* (BDD) with *Typescript* as programming language and
 *Jasmine* to specify your tests.
 
-If you don't know the term BDD yet, read (this blog post)[http://dannorth.net/introducing-bdd/] from the inventor of the term or the (behaviour-driven.org wiki)[http://behaviour-driven.org]. In summary BDD it is about writing tests first and additionally documenting the behavioural intent of the system with these tests.
+If you don't know the term BDD yet, read [this blog post](http://dannorth.net/introducing-bdd/) from the inventor of the term or the [behaviour-driven.org wiki](http://behaviour-driven.org). In summary BDD it is about writing tests first and additionally documenting the behavioural intent of the system with these tests.
 
 ## Preparation
-To get started, you need to install (Node.js)[http://nodejs.org/].
+To get started, you need to install [Node.js](http://nodejs.org/).
 
 Then open your favorite text editor with the following files:
 - TennisGame.ts - The Interface whioch is given and should not be modified
