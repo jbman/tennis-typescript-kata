@@ -1,3 +1,5 @@
+.idea
+*.iml
 .tscache
 node_modules
 typings

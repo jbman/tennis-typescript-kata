@@ -1,0 +1,27 @@
+body {
+    margin: 20px;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.tennis-board {
+    font-family: 'Architects Daughter';
+    font-size: 50px;
+    background-image: url("assets/chalkboard-black.jpg");
+    color: #f5f5f5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 6px solid rgba(160, 160, 160, 0.79);
+    border-radius: 2px;
+}
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Tennis score</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div class="container-fluid">
+
+        <div class="tennis-header row">
+            <div class="btn btn-default js-action-restart">Start new Game</div>
+        </div>
+
+        <div class="row">
+            <div class="tennis-board col-md-6 col-md-offset-3">
+                <p class="text-center">Tennis Score:</p>
+                <p class="text-center js-bind-score">-</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="pull-right btn btn-default btn-lg js-action-point-a">Point for Player A</div>
+            </div>
+            <div class="col-md-6">
+                <div class="pull-left btn btn-default btn-lg js-action-point-b">Point for Player B</div>
+            </div>
+        </div>
+        <div class="row">
+            <small class="pull-right">
+                source on <a href="https://github.com/jbman/tennis-typescript-kata">github</a> - uses <a href="http://www.typescriptlang.org/">TypeScript</a> - powered by&nbsp;<a href="http://vanilla-js.com/"><img src="assets/vanillajs-button.png"></a>
+            </small>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="../TennisGameImpl.js"></script>
+    <script type="text/javascript" src="ViewModel.js"></script>
+    <script type="text/javascript" src="Binder.js"></script>
+    <script type="text/javascript">window.addEventListener("load", Binder.bind, false);</script>
+
+</body>
+</html>
